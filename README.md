@@ -104,5 +104,5 @@ Visualization outputs (e.g., plots) are saved in the data/ directory. Ensure thi
 
 ## Contributors
 
-Thanks to the following people who have contributed to this project:
+Thanks to the following people who have contributed to this project.
 
