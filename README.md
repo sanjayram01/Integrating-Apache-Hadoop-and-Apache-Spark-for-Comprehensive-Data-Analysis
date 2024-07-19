@@ -77,12 +77,12 @@ spark-submit --master "local[*]" scripts/Big_Data_Project.py hdfs://localhost:90
 ## Utility Functions
 
 The utility functions are located in scripts/Utility_Folder/utility.py. They include:
-
+```
    (i)elbow
    (ii)clust_plot
    (iii)plot_data
    (iv)outlier
-
+```
 These functions are used for visualization and data analysis within the project.
 
 ## Data Files
