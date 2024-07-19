@@ -95,7 +95,7 @@ Visualization outputs (e.g., plots) are saved in the data/ directory. Ensure thi
 
 ## Notes
 ```
-   (i)iEnsure Hadoop and Spark are correctly set up and configured on your system.
+   (i)Ensure Hadoop and Spark are correctly set up and configured on your system.
    (ii)Adjust any file paths in the scripts if necessary to match your local environment setup.
    (iii)Monitoring Spark Job: You can monitor the progress and performance of the Spark job using the Spark UI. By default, the Spark UI runs on port 4040. 
        Open web browser and go to http://localhost:4040 to access the Spark UI. The UI provides detailed information about the running Spark job, including 
