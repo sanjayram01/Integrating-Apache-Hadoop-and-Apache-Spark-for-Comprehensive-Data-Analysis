@@ -102,7 +102,3 @@ Visualization outputs (e.g., plots) are saved in the data/ directory. Ensure thi
        stages, tasks, storage, environment, and executors. This helps in monitoring the progress and performance of the job.
 ```
 
-## Contributors
-
-Thanks to the following people who have contributed to this project.
-
