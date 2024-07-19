@@ -4,3 +4,22 @@ A data analysis project involving customer segmentation using PySpark and Hadoop
 ## Project Structure
 
 
+
+
+
+
+## Setup
+
+1. Clone the Repository:
+
+   ```sh
+   git clone <repository_url>
+   cd Big_Data_Project
+
+2. Install Dependencies:
+
+Ensure you have Python 3.7+ and pip installed.
+
+```
+pip install -r requirements.txt
+```
