@@ -3,6 +3,7 @@ A data analysis project involving customer segmentation using PySpark and Hadoop
 
 ## Project Structure
 
+```
 Big_Data_Project/
 │
 ├── data/
@@ -31,7 +32,7 @@ Big_Data_Project/
 │
 └── README.md
 
-
+```
 
 
 ## Setup
@@ -50,6 +51,56 @@ Ensure you have Python 3.7+ and pip installed.
 pip install -r requirements.txt
 ```
 
-3.Run the Jupyter Notebook:
+3. Run the Jupyter Notebook:
 
 To explore the analysis interactively, run the Jupyter notebook.
+
+```
+jupyter notebook scripts/Big_Data_Project.ipynb
+```
+
+4. Convert Notebook to Python Script:
+
+After completing the notebook, save it as a Python script:
+
+In the Jupyter notebook interface, go to File -> Download as -> Python (.py)
+Save the file as Big_Data_Project.py in the scripts/ directory.
+
+5. Run the Python Script as a Spark Job:
+
+To execute the analysis as a Spark job, run the following command:
+
+```
+spark-submit --master "local[*]" scripts/Big_Data_Project.py hdfs://localhost:9000/project/full_data.csv
+```
+
+Utility Functions
+
+The utility functions are located in scripts/Utility_Folder/utility.py. They include:
+
+(i)elbow
+(ii)clust_plot
+(iii)plot_data
+(iv)outlier
+
+These functions are used for visualization and data analysis within the project.
+
+Data Files
+
+Data files used in the analysis are located in the data/ directory. Ensure the paths in the scripts point to the correct locations of these files.
+
+Visualization Outputs
+
+Visualization outputs (e.g., plots) are saved in the data/ directory. Ensure this directory exists and is writable before running the scripts.
+
+Notes
+
+   Ensure Hadoop and Spark are correctly set up and configured on your system.
+   Adjust any file paths in the scripts if necessary to match your local environment setup.
+   Monitoring Spark Job: You can monitor the progress and performance of the Spark job using the Spark UI. By default, the Spark UI runs on port 4040. Open a    web browser and go to http://localhost:4040 to access the Spark UI. The UI provides detailed information about the running Spark job, including stages,       tasks, storage, environment, and executors. This helps in monitoring the progress and performance of the job.
+
+
+Contributors
+
+Thanks to the following people who have contributed to this project:
+
